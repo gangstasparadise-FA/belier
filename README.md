@@ -31,6 +31,9 @@ You can modify the behavior of the script by editing the `config.lua` file. Adju
 - Effects and sounds
 - Notification messages
 
+## Personal Note:
+This is a personal project and may not be fully optimized. However, everyone is welcome to contribute and improve it. Feel free to fork the repository and make it better for the community!
+
 ## License:
 This project is licensed under the MIT License.
 
@@ -67,6 +70,9 @@ Vous pouvez modifier le comportement du script en éditant le fichier `config.lu
 - Assignation des touches pour utiliser le bélier
 - Effets et sons
 - Messages de notification
+
+## Note Personnelle :
+Ceci est un projet personnel et il n'est peut-être pas entièrement optimisé. Cependant, tout le monde est libre de contribuer et d'améliorer ce script. N'hésitez pas à forker le dépôt et à l'améliorer pour la communauté !
 
 ## Licence :
 Ce projet est sous licence MIT.
