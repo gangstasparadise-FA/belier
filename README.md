@@ -1,3 +1,5 @@
+[EN]
+
 # FiveM Ram Script
 
 This is a **FiveM Ram Script** compatible with the **ox_doorlock** system. The script allows players to use a battering ram to break into locked doors that are managed by the `ox_doorlock` resource. It adds an immersive roleplay mechanic for law enforcement or other players to breach doors realistically.
@@ -13,7 +15,27 @@ This is a **FiveM Ram Script** compatible with the **ox_doorlock** system. The s
 1. Clone or download this repository and place it in your `resources` folder in the FiveM server directory.
 2. Ensure that `ox_doorlock` is installed and properly configured on your server.
 3. Add the resource to your `server.cfg` file:
+4. Configure the script settings in `config.lua` to match your needs (e.g., key bindings, allowed roles).
 
+## Dependencies:
+- [ox_doorlock](https://github.com/overextended/ox_doorlock) - Required for door locking functionality
+
+## Usage:
+- To use the battering ram, approach a locked door (managed by `ox_doorlock`) and press the designated key (configured in `config.lua`).
+- The door will play a breaching animation and open after a successful hit.
+- Notifications will be displayed to the player, and sound effects will play during the action.
+
+## Configuration:
+You can modify the behavior of the script by editing the `config.lua` file. Adjust options like:
+- Key bindings for using the ram
+- Effects and sounds
+- Notification messages
+
+## License:
+This project is licensed under the MIT License.
+
+
+[FR]
 
 # Script de Bélier pour FiveM
 
@@ -30,3 +52,22 @@ Ce script de bélier pour **FiveM** est compatible avec le système **ox_doorloc
 1. Clonez ou téléchargez ce dépôt et placez-le dans le dossier `resources` de votre serveur FiveM.
 2. Assurez-vous que `ox_doorlock` est installé et correctement configuré sur votre serveur.
 3. Ajoutez la ressource dans votre fichier `server.cfg` :
+4. Configurez les paramètres du script dans `config.lua` selon vos besoins (par ex., touches, rôles autorisés).
+
+## Dépendances :
+- [ox_doorlock](https://github.com/overextended/ox_doorlock) - Requis pour la fonctionnalité de verrouillage des portes
+
+## Utilisation :
+- Pour utiliser le bélier, approchez-vous d'une porte verrouillée (gérée par `ox_doorlock`) et appuyez sur la touche désignée (configurée dans `config.lua`).
+- Une animation d'effraction sera jouée et la porte s'ouvrira après un coup réussi.
+- Des notifications seront affichées pour le joueur, et des effets sonores seront déclenchés pendant l'action.
+
+## Configuration :
+Vous pouvez modifier le comportement du script en éditant le fichier `config.lua`. Ajustez les options comme :
+- Assignation des touches pour utiliser le bélier
+- Effets et sons
+- Messages de notification
+
+## Licence :
+Ce projet est sous licence MIT.
+
